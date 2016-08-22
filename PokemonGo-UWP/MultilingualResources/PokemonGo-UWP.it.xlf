@@ -135,12 +135,12 @@
           <target state="new">{0} Pokémon catturati</target>
         </trans-unit>
         <trans-unit id="BadgeEvolvedTotalDescription" translate="yes" xml:space="preserve">
-          <source>Evolved [x] Pokémon</source>
-          <target state="new">[x] Pokémon evoluti</target>
+          <source>Evolved {0} Pokémon</source>
+          <target state="new">Evolved {0} Pokémon</target>
         </trans-unit>
         <trans-unit id="BadgeHatchedTotalDescription" translate="yes" xml:space="preserve">
-          <source>Hatched {x} Pokemon</source>
-          <target state="new">{x} Uova covate</target>
+          <source>Hatched {0} Pokemon</source>
+          <target state="new">Hatched {0} Pokemon</target>
         </trans-unit>
         <trans-unit id="BadgePikachuDescription" translate="yes" xml:space="preserve">
           <source>Caught {0} Pikachu</source>
@@ -457,27 +457,27 @@ Vuoi aprire la pagina con il file di installazione per l'installazione manuale?<
         </trans-unit>
         <trans-unit id="Combat" translate="yes" xml:space="preserve">
           <source>Combat</source>
-          <target state="new">Combat</target>
+          <target state="translated">Punti lotta</target>
         </trans-unit>
         <trans-unit id="Date" translate="yes" xml:space="preserve">
           <source>Date</source>
-          <target state="new">Date</target>
+          <target state="translated">Data ritrovamento</target>
         </trans-unit>
         <trans-unit id="Fav" translate="yes" xml:space="preserve">
           <source>Favorite</source>
-          <target state="new">Favorite</target>
+          <target state="translated">Preferito</target>
         </trans-unit>
         <trans-unit id="Health" translate="yes" xml:space="preserve">
           <source>Health</source>
-          <target state="new">Health</target>
+          <target state="translated">Punti Salute</target>
         </trans-unit>
         <trans-unit id="Name" translate="yes" xml:space="preserve">
           <source>Name</source>
-          <target state="new">Name</target>
+          <target state="translated">Nome</target>
         </trans-unit>
         <trans-unit id="Number" translate="yes" xml:space="preserve">
           <source>Number</source>
-          <target state="new">Number</target>
+          <target state="translated">Numero di Pokédex</target>
         </trans-unit>
         <trans-unit id="PokemonInventoryFullText" translate="yes" xml:space="preserve">
           <source>Your Pokémon inventory is full, transfer some Pokémon before trying to catch {0}.</source>
@@ -612,7 +612,7 @@ Vuoi aprire la pagina con il file di installazione per l'installazione manuale?<
         </trans-unit>
         <trans-unit id="IncubatorsTextBlock.Text" translate="yes" xml:space="preserve">
           <source>INCUBATORS</source>
-          <target state="final">INCUBATRICI</target>
+          <target state="translated">INCUBATRICI</target>
         </trans-unit>
         <trans-unit id="SettingsUseNianticMapTextBlock.Text" translate="yes" xml:space="preserve">
           <source>Use Niantic Map</source>
@@ -659,21 +659,41 @@ Vuoi aprire la pagina con il file di installazione per l'installazione manuale?<
           <source>POWER UP</source>
           <target state="new">POTENZIA</target>
         </trans-unit>
-        <trans-unit id="TransferButton.Content" translate="yes" xml:space="preserve">
-          <source>TRANSFER</source>
-          <target state="new">TRASFERISCI</target>
-        </trans-unit>
-        <trans-unit id="SettingsRememberMapZoomTextBlock" translate="yes" xml:space="preserve">
-          <source>Remember Map Zoom</source>
-          <target state="new">Ricorda l'ingrandimento della mappa</target>
-        </trans-unit>
         <trans-unit id="EggDetailButtonTextBlock.Text" translate="yes" xml:space="preserve">
           <source>START INCUBATION</source>
-          <target state="new">START INCUBATION</target>
+          <target state="translated">METTI NELL'INCUBATRICE</target>
         </trans-unit>
         <trans-unit id="EggDetailTextBlock.Text" translate="yes" xml:space="preserve">
           <source>Use an incubator to incubate the Egg.</source>
-          <target state="new">Use an incubator to incubate the Egg.</target>
+          <target state="translated">Usa un'incubatrice per far schiudere questo Uovo.</target>
+        </trans-unit>
+        <trans-unit id="SettingsRememberMapZoomTextBlock.Text" translate="yes" xml:space="preserve">
+          <source>Remember Map Zoom</source>
+          <target state="new">Remember Map Zoom</target>
+        </trans-unit>
+        <trans-unit id="TransferTextBlock.Text" translate="yes" xml:space="preserve">
+          <source>TRANSFER</source>
+          <target state="new">TRANSFER</target>
+        </trans-unit>
+        <trans-unit id="SettingsLanguageRestartTextBlock.Text" translate="yes" xml:space="preserve">
+          <source>You must restart the App to take effect.</source>
+          <target state="new">You must restart the App to take effect.</target>
+        </trans-unit>
+        <trans-unit id="SettingsLanguageTextBlock.Text" translate="yes" xml:space="preserve">
+          <source>Language</source>
+          <target state="new">Language</target>
+        </trans-unit>
+        <trans-unit id="SettingsCompassEnabledTextBlock.Text" translate="yes" xml:space="preserve">
+          <source>Use compass</source>
+          <target state="new">Use compass</target>
+        </trans-unit>
+        <trans-unit id="SettingsLiveTileTextBlock.Text" translate="yes" xml:space="preserve">
+          <source>Live Tile Mode</source>
+          <target state="new">Live Tile Mode</target>
+        </trans-unit>
+        <trans-unit id="FavoriteTextBlock.Text" translate="yes" xml:space="preserve">
+          <source>FAVORITE</source>
+          <target state="new">FAVORITE</target>
         </trans-unit>
       </group>
     </body>
@@ -745,19 +765,19 @@ Vuoi aprire la pagina con il file di installazione per l'installazione manuale?<
           <target state="final">Iperpozione</target>
         </trans-unit>
         <trans-unit id="ItemIncenseCool" translate="yes" xml:space="preserve">
-          <source>Incense Cool</source>
+          <source>Cool Incense</source>
           <target state="final">Aroma fresco</target>
         </trans-unit>
         <trans-unit id="ItemIncenseFloral" translate="yes" xml:space="preserve">
-          <source>Incense Floral</source>
+          <source>Floral Incense</source>
           <target state="final">Aroma floreale</target>
         </trans-unit>
         <trans-unit id="ItemIncenseOrdinary" translate="yes" xml:space="preserve">
-          <source>Incense Ordinary</source>
+          <source>Incense</source>
           <target state="final">Aroma</target>
         </trans-unit>
         <trans-unit id="ItemIncenseSpicy" translate="yes" xml:space="preserve">
-          <source>Incense Spicy</source>
+          <source>Spicy Incense</source>
           <target state="final">Aroma speziato</target>
         </trans-unit>
         <trans-unit id="ItemIncubatorBasic" translate="yes" xml:space="preserve">
@@ -825,7 +845,7 @@ Vuoi aprire la pagina con il file di installazione per l'installazione manuale?<
           <target state="final">Superpozione</target>
         </trans-unit>
         <trans-unit id="ItemTroyDisk" translate="yes" xml:space="preserve">
-          <source>Troy Disk</source>
+          <source>Lure Module</source>
           <target state="final" state-qualifier="mt-suggestion">Modulo esca</target>
           <note from="MultilingualEditor" annotates="source" priority="4">Unreleased</note>
         </trans-unit>
